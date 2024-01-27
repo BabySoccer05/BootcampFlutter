@@ -36,8 +36,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: Telegram(),
-      home: LoginScreen(),
-      // home: HomeScreen(),
+      // home: LoginScreen(),
+      home: HomeScreen(),
     );
   }
 }

@@ -85,7 +85,7 @@ Container jobs_item(BuildContext context) {
         crossAxisCount: 2,
         children: <Widget>[
           Container(
-            padding: const EdgeInsets.all(8),
+            padding: const EdgeInsets.all(4),
             decoration: BoxDecoration(
                 color: Color(0xffE9FFEB),
                 borderRadius: BorderRadius.circular(10)),
@@ -94,9 +94,9 @@ Container jobs_item(BuildContext context) {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Image.asset(
-                  "img/icon/gojek.jpg",
-                  height: 20,
-                  width: 20,
+                  "img/icon/gojek.png",
+                  height: 25,
+                  width: 25,
                 ),
                 SizedBox(
                   height: 16,
@@ -122,7 +122,7 @@ Container jobs_item(BuildContext context) {
                       style: positionText(),
                     ),
                     SizedBox(
-                      height: 16,
+                      width: 16,
                     ),
                     Text(
                       "Senior",
@@ -134,7 +134,7 @@ Container jobs_item(BuildContext context) {
             ),
           ),
           Container(
-            padding: const EdgeInsets.all(8),
+            padding: const EdgeInsets.all(4),
             decoration: BoxDecoration(
               color: Color(0xffFFEBE7),
               borderRadius: BorderRadius.circular(10),
@@ -144,9 +144,9 @@ Container jobs_item(BuildContext context) {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Image.asset(
-                  "img/icon/shopee.jpg",
-                  height: 20,
-                  width: 20,
+                  "img/icon/shopee.png",
+                  height: 25,
+                  width: 25,
                 ),
                 SizedBox(
                   height: 16,
@@ -172,7 +172,7 @@ Container jobs_item(BuildContext context) {
                       style: positionText(),
                     ),
                     SizedBox(
-                      height: 16,
+                      width: 16,
                     ),
                     Text(
                       "Internship",
@@ -184,7 +184,7 @@ Container jobs_item(BuildContext context) {
             ),
           ),
           Container(
-            padding: const EdgeInsets.all(8),
+            padding: const EdgeInsets.all(4),
             decoration: BoxDecoration(
               color: Color(0xffFFEBE7),
               borderRadius: BorderRadius.circular(10),
@@ -194,9 +194,9 @@ Container jobs_item(BuildContext context) {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Image.asset(
-                  "img/icon/bukalapak.jpg",
-                  height: 20,
-                  width: 20,
+                  "img/icon/bukalapak.png",
+                  height: 25,
+                  width: 25,
                 ),
                 SizedBox(
                   height: 16,
@@ -222,7 +222,7 @@ Container jobs_item(BuildContext context) {
                       style: positionText(),
                     ),
                     SizedBox(
-                      height: 16,
+                      width: 16,
                     ),
                     Text(
                       "Senior",
@@ -234,7 +234,7 @@ Container jobs_item(BuildContext context) {
             ),
           ),
           Container(
-            padding: const EdgeInsets.all(8),
+            padding: const EdgeInsets.all(4),
             decoration: BoxDecoration(
               color: Color(0xffFFEBE7),
               borderRadius: BorderRadius.circular(10),
@@ -244,9 +244,9 @@ Container jobs_item(BuildContext context) {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Image.asset(
-                  "img/icon/blibli.jpg",
-                  height: 20,
-                  width: 20,
+                  "img/icon/blibli.png",
+                  height: 25,
+                  width: 25,
                 ),
                 SizedBox(
                   height: 16,
@@ -272,7 +272,7 @@ Container jobs_item(BuildContext context) {
                       style: positionText(),
                     ),
                     SizedBox(
-                      height: 16,
+                      width: 16,
                     ),
                     Text(
                       "Senior",
@@ -294,5 +294,5 @@ TextStyle positionText() {
 TextStyle subTitle() => TextStyle(fontWeight: FontWeight.w500);
 
 TextStyle titleStyle() {
-  return TextStyle(fontSize: 15, fontWeight: FontWeight.w400);
+  return TextStyle(fontSize: 15, fontWeight: FontWeight.w700);
 }
