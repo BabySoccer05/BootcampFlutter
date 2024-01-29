@@ -19,6 +19,7 @@ class _TelegramState extends State<Telegram> {
             child: Icon(Icons.search),
           )
         ],
+        backgroundColor: Colors.blue,
       ),
       drawer: DrawerScreen(),
       body: ListView.separated(
